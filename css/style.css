@@ -1,0 +1,32 @@
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.navbar-link {
+    text-decoration: none;
+    color: #000000;
+}
+
+li a:hover:not(.active) {
+    background-color: #6984d1;
+    color: white;
+}
+.basic {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto;
+    grid-gap: 2vw;
+}
+h1 {
+    color: #6984d1;
+    font-size: 2.5em;
+}
+img {
+    border-radius: 50%;
+}
